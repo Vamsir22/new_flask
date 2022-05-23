@@ -11,7 +11,7 @@ top_headlines = newsapi.get_top_headlines(q='india',
                                           country='in')
 data = top_headlines['articles']
 
-
+#adding new comment
 @app.route('/')
 def home():
     return render_template('index.html', news=data)
