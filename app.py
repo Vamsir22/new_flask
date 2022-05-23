@@ -4,7 +4,7 @@ from newsapi import NewsApiClient
 # Init
 newsapi = NewsApiClient(api_key='79586381669048ab8d983e3112db287e')
 
-
+#new change
 app = Flask(__name__)
 # /v2/top-headlines
 top_headlines = newsapi.get_top_headlines(q='india',
