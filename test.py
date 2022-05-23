@@ -8,7 +8,6 @@ top_headlines = newsapi.get_top_headlines(q='india',
                                           language='en',
                                           country='in')
 
-
 data = top_headlines['articles']
 
 for each in data:
